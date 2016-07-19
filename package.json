@@ -1,0 +1,18 @@
+{
+  "name": "rakam-client",
+  "version": "0.5",
+  "description": "An_analytics_platform_API_that_lets_you_create_your_own_analytics_services_",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
